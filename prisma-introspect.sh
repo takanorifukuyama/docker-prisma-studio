@@ -10,4 +10,4 @@ generator client {
 }
 EOF
 node_modules/.bin/prisma db pull
-exec node_modules/.bin/prisma studio
+exec node_modules/.bin/prisma studio -p 8080
